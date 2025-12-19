@@ -60,10 +60,30 @@ The **AI Resume Analyzer & Job Matcher**:
 
 ## 📂 Project Structure
 
+```bash
 AI-Resume-Analyzer-Job-Matcher/
+│
 ├── backend/
+│ ├── app.py # Backend server
+│ ├── resume_parser.py # Resume text extraction logic
+│ ├── matcher.py # Job matching & scoring logic
+│ ├── requirements.txt # Python dependencies
+│
 ├── frontend/
+│ ├── src/
+│ │ ├── components/ # Reusable React components
+│ │ ├── pages/ # Application pages
+│ │ ├── services/ # API service calls
+│ │ ├── App.tsx # Main React component
+│ │ └── index.tsx # Entry point
+│ │
+│ ├── public/
+│ ├── package.json
+│ └── tsconfig.json
+│
 ├── README.md
+└── .gitignore
+```
 
 ---
 
